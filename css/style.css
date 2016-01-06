@@ -163,6 +163,7 @@ Home
     color: #C1E2F3;
 }
 
+
 .students{
     padding-bottom: 50px;
 }
@@ -170,14 +171,6 @@ Home
     color: #fff;
     
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -258,6 +251,7 @@ Features
 
 .feature-one > .title{
     margin-bottom: 8px;
+    font-size: 23px;
 }
 
 .feature-one > p{
