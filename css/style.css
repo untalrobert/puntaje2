@@ -761,8 +761,7 @@ Our Skills section End
 h1.section-heading {
     font-family: 'Raleway', sans-serif;
     font-size: 56px;
-    font-weight: 100;
-    color: #4E5C72;
+    color: #337AB7;
     text-transform: capitalize;
     text-align: center;
     display: inline-block;
@@ -771,7 +770,7 @@ h1.section-heading {
     margin: 0;
     line-height: 44px;
     font-weight: 600;
-    text-shadow: 2px 2px 0px #C1C1C1;
+    
 
 }
 .heading-center{
@@ -961,16 +960,6 @@ h1.section-heading {
 
 
 
-
-
-
-
-
-
-
-
-
-
 /*
 Call To Action
 =========================== */
@@ -983,8 +972,9 @@ Call To Action
 
 .ct-action .title-one{
     color: #f6f7f9;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     margin-bottom: 8px;
+    font-size: 31px;
 }
 
 .ct-action .title-two{
