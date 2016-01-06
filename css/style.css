@@ -228,13 +228,14 @@ Home
 
 
 
+
 /*
 Features
 =========================== */
 /*Feature One -----*/
 
 #features{
-    background: #25B3A2;
+    background: #56D0B3;
     font-family: "Roboto";  
 }
 
@@ -413,6 +414,7 @@ ul.feature-two.right li .icon{
 ul.feature-two.right .line{
     left: 0;
 }
+
 
 /*Feature Three -----*/
 .feature-three{
