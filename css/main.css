@@ -774,12 +774,12 @@ blockquote cite {
 
 .site-footer small,
 .footer-links a {
-  color: #8A8A8A;
+  color: #fff;
   font-weight: 300;
   font-size: 18px;
 }
 
-.footer-links a:hover { color: #fa5454; }
+.footer-links a:hover { color: #1E83B8; }
 
 .footer-links a:first-child { padding-right: .4em; }
 
