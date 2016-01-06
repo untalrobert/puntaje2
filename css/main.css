@@ -295,7 +295,7 @@ transform:translateY(0);
 .footer-links a {
   color: #fff;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .footer-links a:hover { color: #1E83B8; }
@@ -303,6 +303,20 @@ transform:translateY(0);
 .footer-links a:first-child { padding-right: .4em; }
 
 .site-footer { background-color: #2C3E50 }
+
+.site-footer a{
+
+  font-size: 12px;
+  float:  left;
+  margin-top: 8px;
+}
+.logoFooter{
+  text-align: center;
+}
+
+.copy a{
+  float: initial;
+}
 
 /* ==========================================================================
    18.Social 
