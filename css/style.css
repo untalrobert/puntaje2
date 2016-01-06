@@ -1,50 +1,4 @@
-/* ==============================================================
 
-Template name : Cobian flat bootstrap landing page
-Categorie : Site template
-Author : Nce18cex
-Version : v1.0.0
-Created : 20 Oktober  2015
-Last update : 2 Nopember 2015
-
------------------------------------------------------------------
-CSS structure
------------------------------------------------------------------
-
-01. Navbar
-02. Logo
-03. Section
-04. Home
-05. Features
-06. List Style
-07. Parallax
-08. Clear Padding
-09. Description
-10. Testimonial
-11. Table Price
-12. Gallery
-13. Article
-14. Comments
-15. Call To Action
-16. Inner page
-17. Aside
-18. Contact
-19. Footer
-20. Subscribe
-21. Twitter Feed
-22. Social Network
-23. Scroll to top
-24. Media responsive
-25. Divider
-26. Preloading
-27. Clear spacer
-28. Custom top spacer
-29. Custom bottom spacer
-30. Custom left spacer
-31. Custom right spacer
-32. Responsive
-	
-*/
 /*
 Logo
 =========================== */
@@ -183,27 +137,27 @@ Home
     background: #2c3e50;
     padding-bottom: 100px;
     padding-top: 100px;
-    font-family: "Roboto";
+    
 }
 
 
 #about h4 span{
     font-size: 24px;
     color: #6BC6DC;
-    font-family: "Roboto";
+   
 }
 #about h4 {
     color: #fff;
-    font-family: "Roboto";
+   
 }
 
 #about h5 {
     color: #fff;
-    font-family: "Roboto";
+    
 }
 
 #about p {
-    font-family: "Roboto";   
+    
     font-size: 15px;
     color: #C1E2F3;
 }
@@ -235,16 +189,21 @@ Features
 /*Feature One -----*/
 
 #features{
-    background: #56D0B3;
-    font-family: "Roboto";  
+    background: #1D2329;
+    
 }
 
 #features h5{
    
-    color: #fff;
-    font-weight: 600;
-    text-shadow: 2px 2px 0px #454748;
+    color: #4CB2FF;   
+    
 }
+#features h4{
+   
+    color: #4CB2FF;   
+    
+}
+
 #features span{
    
     color: #fff;
@@ -255,7 +214,7 @@ Features
 
 #features p{
     font-size: 14px;
-    color: #333;
+    color: #fff;
     font-weight: 500;
 }
 
