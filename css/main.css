@@ -349,7 +349,7 @@ transform:translateY(0);
 
 #bgvid-hero,
 #bgvid {
-  display: none;
+  
   position: absolute;
   right: 0;
   bottom: 0;

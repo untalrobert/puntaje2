@@ -1870,7 +1870,7 @@ Responsive
 @media (max-width:1024px){
    
 	.home-container{
-		background-image: url(../images/home/city.jpg);
+		background-image: url(../images/city.jpg);
 		background-position: top center;
 		background-repeat: no-repeat;
 		
@@ -2455,6 +2455,9 @@ a.openpanel:active{
 	.demo-column{
 		width:100%;
 	}
+    .social{
+        display: none;
+    }
 }
 
 
