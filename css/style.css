@@ -40,7 +40,7 @@ Section
     display: block;
     font-size: 16px;
     margin-bottom: 3px;
-    text-transform: uppercase;
+    
 }
 
 .title-section .line{
@@ -142,12 +142,13 @@ Home
 
 
 #about h4 span{
-    font-size: 24px;
+    font-size: 30px;
     color: #6BC6DC;
    
 }
 #about h4 {
     color: #fff;
+    font-size: 18px;
    
 }
 
@@ -167,7 +168,7 @@ Home
 }
 .students h4{
     color: #fff;
-    text-shadow: 4px 4px 0px #011E25;
+    
 }
 
 
