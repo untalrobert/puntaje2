@@ -310,10 +310,9 @@ transform:translateY(0);
   float:  left;
   margin-top: 8px;
 }
-.logoFooter{
-  text-align: center;
+.footerOgr {
+  text-align: -webkit-center;
 }
-
 .copy a{
   float: initial;
 }
