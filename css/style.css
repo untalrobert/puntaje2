@@ -549,6 +549,7 @@ Testimonial
     position: relative;
     padding: 71px 0 0 0;
     overflow: hidden;
+
 }
 
 .wrap-testimonial{
@@ -2475,14 +2476,13 @@ a.openpanel:active{
     }
  
     .social ul li a {
+        border-radius: 50%;
         display: inline-block;
         color:#fff;
         background: #000;
         padding: 5px 10px;
         text-decoration: none;
-        -webkit-transition:all 500ms ease;
-        -o-transition:all 500ms ease;
-        transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+        
     }
 
  
@@ -2495,5 +2495,5 @@ a.openpanel:active{
  
     .social ul li a:hover {
         background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
-        padding: 3px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+        
     }
