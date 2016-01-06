@@ -792,6 +792,7 @@ blockquote cite {
   display: inline-block;
   padding-right: .5em;
   text-align: center;
+  color: #1E83B8;
 }
 
 .redes li:last-child { padding-right: 0; }
@@ -812,6 +813,12 @@ blockquote cite {
 .redes li a:hover {
   color: #fff;
   background: #f56363;
+}
+.redes .fa{
+  color: #1E83B8;
+}
+.redes .fa:hover{
+  color: #fff;
 }
 
 /* ==========================================================================
