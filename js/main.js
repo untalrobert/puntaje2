@@ -88,3 +88,15 @@ $(function() {
 
 });
 
+
+
+
+$("ul.feature-two").each(function(){
+        var $this = $(this),
+            $window_w = $(window).width(),
+            $gHeight = $this.height();
+
+        $this.append("<span class='line'></span>");
+        $("li", this).last().css("margin-bottom","-19px");
+    });
+
