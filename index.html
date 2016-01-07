@@ -39,33 +39,8 @@
     <![endif]-->
     
 </head>
-<body id="home">
-    <!-- Start preloading -->
-    <div id="loading" class="loading-invisible">
-        <div class="loading-center">
-            <div class="loading-center-absolute">
-                <div class="object"></div>
-                <div class="object"></div>
-                <div class="object"></div>
-                <div class="object"></div>
-                <div class="object"></div>
-                <div class="object"></div>
-                <div class="object"></div>
-                <div class="object"></div>
-                <div class="object"></div>
-                <div class="object"></div>
-            </div>
-            <p>Cargando...</p>
-        </div>
-    </div>
-    <script type="text/javascript">
-          document.getElementById("loading").className = "loading-visible";
-          var hideDiv = function(){document.getElementById("loading").className = "loading-invisible";};
-          var oldLoad = window.onload;
-          var newLoad = oldLoad ? function(){hideDiv.call(this);oldLoad.call(this);} : hideDiv;
-          window.onload = newLoad;
-    </script>
-    <!-- End preloading -->
+<body>
+    
 
 
     <!-- Start Scroll to top -->
@@ -106,7 +81,7 @@
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#" data-toggle="modal" data-target="#modal-register"><i class="fa fa-sign-in"></i> Ingresar</a></li>
-          <li><a href="#" class="btn" data-toggle="modal" data-target="#modal-register2">¡Registrate Gratis!</a></li>
+          <li><a href="#" class="btn wow fadeInDownBig  animated" data-toggle="modal" data-target="#modal-register2">¡Registrate Gratis!</a></li>
         </ul>
       </div>
     </div>
@@ -125,12 +100,12 @@
                         </div>
                     </div>
                     <div class="col-md-6" style="text-align:center">
-                        <h1 class="title-one">Comunidad Educativa Online <br>100% Gratuita</h1>
-                        <p>
+                        <h1 class="title-one wow fadeInRight animated" >Comunidad Educativa Online <br>100% Gratuita</h1>
+                        <p class="wow fadeInUp animated" data-wow-duration="0.5s">
                         Aprende lo que quieras como más te acomode, nosotros estamos aquí para apoyarte.
                         </p>
-                        <a href="#" class="btn btn-success ingreso" data-toggle="modal" data-target="#modal-register">Ingresar</a>
-                        <a href="#" class="btn btn-primary registro" data-toggle="modal" data-target="#modal-register2"> ¡Registrate Ya! </a>
+                        <a href="#" class="btn btn-success ingreso wow zoomIn animated" data-wow-duration="3.5s" data-toggle="modal" data-target="#modal-register">Ingresar</a>
+                        <a href="#" class="btn btn-primary registro wow zoomIn animated" data-wow-duration="3.5s" data-toggle="modal" data-target="#modal-register2"> ¡Registrate Ya! </a>
                     </div>
                 </div>
                 <div class="icon-arrow-down scroll-down-anim">
