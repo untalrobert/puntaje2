@@ -192,8 +192,8 @@ section,
 }
 
 .dark{
-    background-color: #2C3E50;
-    color: #c3c7ce;
+    background-color: #22C48A;
+    color: #fff;
     position: relative;
     padding: 71px 0;
     overflow: hidden;
@@ -203,10 +203,16 @@ section,
 .dark h2,
 .dark h3,
 .dark h4,
-.dark h5,
 .dark h6{
-    color: #eaedf2;
+    color: #fff;
 }
+
+.dark h5{
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+}
+
 
 .bg-primary{
     position: absolute;

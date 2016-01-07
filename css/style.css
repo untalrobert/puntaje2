@@ -418,7 +418,7 @@ ul.feature-two.right .line{
     -o-border-radius: 50%;
     border-radius: 50%;
     padding: 13px;
-    border: solid 5px #768397;
+    border: solid 5px #fff;
 	text-align:center;
 }
 
@@ -431,7 +431,7 @@ ul.feature-two.right .line{
     -webkit-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%;
-    background: #768397;
+    background: #fff;
     font-weight: bold;
     top: 0;
     left: 50%;
@@ -439,6 +439,7 @@ ul.feature-two.right .line{
     margin-left: -10px;
     padding: 0;
     line-height: 20px;
+    color: #22C48A;
 }
 
 .feature-three .img-feature .count:after{
