@@ -1855,7 +1855,7 @@ button.btn:active:focus, button.btn.active:focus { outline: 0; opacity: 0.6; bac
 }
 
 #Ingreso_Plataforma{
-    margin-top: 10px;
+    margin-top: 0px;
 }
 .modal-body p{
     font-size: 14px;
