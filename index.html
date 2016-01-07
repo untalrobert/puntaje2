@@ -5,10 +5,10 @@
 <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300,700" rel="stylesheet">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <title>Puntaje Nacional</title>
-<meta name="description" content="Startup Landing Page">
-<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<meta name="description" content="Puntaje Nacional es una COMUNIDAD DE JÓVENES conectados para preparar el Saber 11, ejercicios Saber 11, simulacion Saber 11 diagnostico, comunidad educativa 100% gratis.">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 <!-- Start Font -->
     <link type="text/css" rel="stylesheet" href="css/font-awesome.css" /><!-- Font Icon Fontawesome -->
@@ -25,6 +25,7 @@
     <!-- Start Default -->
     <link type="text/css" rel="stylesheet" href="css/style.css" /><!-- Overwrite -->
   <!-- End Default -->
+  <link href="css/main.css" rel="stylesheet">
 
   
 
@@ -36,29 +37,57 @@
     <!--[if IE 8]>
         <link rel="stylesheet" type="text/css" href="css/ie8.css">
     <![endif]-->
-    <link href="css/main.css" rel="stylesheet">
+    
 </head>
-<body>
+<body id="home">
+    <!-- Start preloading -->
+    <div id="loading" class="loading-invisible">
+        <div class="loading-center">
+            <div class="loading-center-absolute">
+                <div class="object"></div>
+                <div class="object"></div>
+                <div class="object"></div>
+                <div class="object"></div>
+                <div class="object"></div>
+                <div class="object"></div>
+                <div class="object"></div>
+                <div class="object"></div>
+                <div class="object"></div>
+                <div class="object"></div>
+            </div>
+            <p>Cargando...</p>
+        </div>
+    </div>
+    <script type="text/javascript">
+          document.getElementById("loading").className = "loading-visible";
+          var hideDiv = function(){document.getElementById("loading").className = "loading-invisible";};
+          var oldLoad = window.onload;
+          var newLoad = oldLoad ? function(){hideDiv.call(this);oldLoad.call(this);} : hideDiv;
+          window.onload = newLoad;
+    </script>
+    <!-- End preloading -->
 
 
     <!-- Start Scroll to top -->
-    <div class="scroll top">
-        <a href="#bgvid-hero"><span class="fa fa-chevron-up"></span></a>
+    <div class="scroll top" id="IrArriba">
+        <a href="javascript:void(0);"><span class="fa fa-chevron-up"></span></a>
     </div>
     <!-- End Scroll to top -->
+    
+    
 
 <!--hero section-->
 
 <header class="hero-section"> 
   
   <!--HTML5 Video-->
-  <video autoplay loop muted id="bgvid-hero" poster="images/city.jpg">
+  <video id="bgvid-hero" poster="images/city.jpg">
     <!-- <source src="video/video-hero/vb.mp4" type="video/mp4">
     <source src="video/video-hero/vb.webm" type="video/webm"> -->
   </video>
   <!--HTML5 Video end-->
   
-  <div class="overlay"></div>
+  <!-- <div class="overlay"></div> -->
   
   <!--navigation-->
   
@@ -68,8 +97,8 @@
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
         <a class="navbar-brand" href=""><img class="logo-nav" alt="logo" src="images/logo-nav.png"><img class="logo-head" alt="logo" src="images/logo-head.png"></a> </div>
       <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
-        <ul class="nav navbar-nav nav-left">
-          <li class="scroll"><a href="#about">Soy estudiante </a></li>
+        <ul class="nav navbar-nav nav-left" >
+          <li class="scroll"><a href="#">Inicio</a></li>
           <li class="scroll"><a href="#testimonial">Soy profesor</a></li>
           <li class="scroll"><a href="#nosotros">Nosotros</a></li>
           <li class="scroll"><a href="#video">Video</a></li>
@@ -86,8 +115,9 @@
   <!--navigation end--> 
   
   <!--welcome message-->
+  <div class="container">
   
-  <section class="container text-center welcome-message">
+  <section class="container text-center welcome-message" id="AnimatedBg">
     <div class="row">
                     <div class="col-md-6 player">
                         <div class="video-container">
@@ -154,7 +184,7 @@
         <div class="container">
             <!-- Start Title -->
             <div class="row">
-                <div class="col-md-12 title-section students">
+                <div class="col-md-12 title-section students ">
                     <h4 class="title"><span>Prepara el Saber 11</span> Material Gratuito y de Calidad</h4>
                     <div class="line"><i class="icon icon-24 icon-profle"></i></div>
                 </div>
@@ -162,7 +192,7 @@
             <!-- End Title -->
             <!-- Start Feature One -->
             <div class="row wrap-feature-one">
-                <div class="col-md-4 col-sm-6 feature-one">
+                <div class="col-md-4 col-sm-6 feature-one ">
                     <i class="icon"><img src="images/icons/genera_estrategia.png" class="img-responsive" alt="Responsive image"></i>
                     <h5 class="title">Simulacros</h5>
                     <p>
@@ -562,14 +592,14 @@
           <li><a href="https://twitter.com/puntajecolombia" target="_blank"><i class="fa fa-twitter"></i></a></li>
           <li><a href="https://www.facebook.com/Puntaje-Nacional-Colombia-294398947405325/" target="_blank"><i class="fa fa-facebook"></i></a></li>
           <li><a href="https://www.youtube.com/channel/UCTzMx0G4b7hLXDycu3DISjw" target="_blank" class="icon-youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
-        </ul>
-        
+        </ul>        
         <!--social end--> 
         
       </div>
     </div>
   </div>
 </footer>
+ </div>
 <!--site-footer end--> 
 
 
@@ -657,22 +687,16 @@
                 </div>
             </div>
         </div>
+
+
+
     <!-- /Registration Modal -->
-
-
-
     
-    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>    
-
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/waypoints.min.js"></script> 
     <script src="js/waypoints-sticky.min.js"></script> 
     <script src="js/retina.min.js"></script> 
-    <script src="js/jquery.ajaxchimp.min.js"></script> 
-    <script src="js/tweetie.min.js"></script> 
-
-
-
  <!-- Owl Script -->
     <script type="text/javascript" src="js/owl/owl.carousel.min.js"></script>
     <script type="text/javascript" src="js/owl/setting.js"></script>
@@ -681,10 +705,9 @@
      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
 
-    <!-- Parallax -->
-    <script src="js/parallax/jquery.parallax-1.1.3.js"></script>
-    <script src="js/parallax/setting.js"></script>  
-     
+    
+     <script src="js/wow.js"></script>     
+    
     
 </body>
 </html>
