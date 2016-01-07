@@ -26,7 +26,7 @@ $(function() {
             $('#IrArriba span').click(function(){
                 $('body,html').animate({
                     scrollTop: 0
-                }, 1000);
+                }, 1600);
                 return false;
             })
         })
