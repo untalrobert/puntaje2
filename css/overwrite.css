@@ -224,7 +224,8 @@ section,
 }
 
 .pattern{
-    background-image: url(../images/pattern.png);
+    background-image: url(../images/fondo.jpg);
+     background-attachment: fixed;
 }
 .pattern2{
     background-image: url(../images/city.jpg);
