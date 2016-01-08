@@ -716,7 +716,14 @@ ul.list-author li:last-child{
 /*
 Section video Puntaje */
 
-
+.line-centered {
+    position: relative;
+    display: block;
+    max-width: 70px;
+    height: 2px;
+    background: #11c3f0;
+    margin: 10px auto 20px;
+}
 
 .client-testimonials{
     position:relative;
