@@ -226,7 +226,12 @@ section,
 .pattern{
     background-image: url(../images/pattern.png);
 }
-
+.pattern2{
+    background-image: url(../images/city.jpg);
+    background-attachment: fixed;
+    -webkit-filter: invert(5%);
+    filter: invert(60%);
+}
 /*
 Navbar
 =========================== */
