@@ -2599,8 +2599,18 @@ a.openpanel:active{
     padding:14px 28px;
     position:relative;
     }
+    .btn.btn-success{
+        margin-bottom: 15px;
+    }
 }
 
+
+@media (max-width: 360px) {
+
+    .btn.btn-success{
+        margin-bottom: 15px;
+    }
+}
 
 
 @media (max-width: 991px) {
