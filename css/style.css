@@ -2589,6 +2589,16 @@ a.openpanel:active{
     .social{
         display: none;
     }
+
+    h1.section-heading{
+        font-size: 34px;
+    }
+    .video-wrapper{
+    max-width:400px;
+    margin:0 auto;
+    padding:14px 28px;
+    position:relative;
+    }
 }
 
 
