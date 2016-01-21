@@ -509,4 +509,8 @@ blockquote::before {
 @media (max-width: 460px) {
 
 .video-tour .play-btn img { width: 45%; }
+.btn.btn-warning{
+  margin-top: 20px;
+}
+
 }
