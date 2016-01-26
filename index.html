@@ -686,7 +686,22 @@
                                 <input type="text" name="form-email" placeholder="Correo Electronico..." class="form-email form-control" id="form-email">
                             </div>
                             <div class="olvido">
-                            <a href=""><p>¿ Olvido su contraseña ?</p></a>
+                                <a style='cursor: pointer;' onClick="muestra_oculta('contenido')" title="contraseña" class="boton_mostrar">¿ Olvido su contraseña ?</a>
+                            <!-- <a href="" id="botonocultamuestra"><p>¿ Olvido su contraseña ?</p></a> -->
+                            </div>
+
+                            <div id="contenido">
+
+                                <div class="form-group">
+                                    <label class="sr-only" for="form-first-name">Correo electrónico</label>
+                                    <input type="text" name="form-first-name" placeholder="Correo electrónico" class="form-first-name form-control" id="form-first-name">
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label class="sr-only" for="form-email">Email</label>
+                                    <input type="text" name="form-email" placeholder="Correo Electronico..." class="form-email form-control" id="form-email">
+                                </div>
+                          
                             </div>
                            
                             <button id="Ingreso_Plataforma" type="submit" class="btn btn-success ingreso">Ingresar</button>
@@ -720,6 +735,24 @@
     <script src="js/bxslider.js"></script>
     <script src="js/script.js"></script>
 
+
+
+
+  
+<script type="text/javascript">
+    
+
+function muestra_oculta(id){
+if (document.getElementById){ //se obtiene el id
+var el = document.getElementById(id); //se define la variable "el" igual a nuestro div
+el.style.display = (el.style.display == 'none') ? 'block' : 'none'; //damos un atributo display:none que oculta el div
+}
+}
+window.onload = function(){/*hace que se cargue la función lo que predetermina que div estará oculto hasta llamar a la función nuevamente*/
+muestra_oculta('contenido');/* "contenido_a_mostrar" es el nombre que le dimos al DIV */
+}
+
+</script>
     
     
 </body>
