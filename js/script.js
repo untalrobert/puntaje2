@@ -10,7 +10,7 @@
 			auto:true,
 			mode:'fade',
 			controls: false,
-			pause: 5000,
+			pause: 14000,
 			speed: 1000,
 			pager:true
 		});

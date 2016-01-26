@@ -365,7 +365,18 @@ transform:translateY(0);
 
 .welcome-message { margin-top: 8.25em; }
 
-.welcome-message h1 { font-size: 44px; }
+.welcome-message h1 {     
+  font-size: 58px;
+   line-height: 59px;
+   text-shadow: 2px 2px 3px rgba(68, 134, 139, 0.66) 
+
+    }
+
+
+.welcome-message p {     
+  font-size: 20px;
+  padding-bottom: 20px;
+    }
 
 .welcome-message h2 { font-size: 23px; }
 
@@ -450,9 +461,12 @@ blockquote::before {
 
 .nav-left { padding-left: 3em; }
 
-.welcome-message { margin-top: 4.5em; }
+.welcome-message { margin-top: 2.5em;}
 
-.welcome-message h2 { font-size: 24px; }
+ .welcome-message h2 {     
+  font-size: 38px;
+  text-shadow: 2px 2px 3px rgba(68, 134, 139, 0.66)   
+    }
 
 .play-btn { margin: 4.5em 0; }
 
