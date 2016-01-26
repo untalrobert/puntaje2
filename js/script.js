@@ -23,6 +23,8 @@
 
 
 
+// Form 
+
   $(document).ready(function(){
   $('#divocultamuestra').hide()
    $("#botonocultamuestra").click(function () {

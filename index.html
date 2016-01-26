@@ -616,8 +616,8 @@
 <!-- Modal -->
 
     <!-- Login Modal -->
-   <div class="modal fade" id="modal-register2" tabindex="-1" role="dialog" aria-labelledby="modal-register-label" aria-hidden="true">
-            <div class="modal-dialog">
+   <div class="modal fade bs-example-modal-lg" id="modal-register2" tabindex="-1" role="dialog" aria-labelledby="modal-register-label" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     
                     <div class="modal-header">
@@ -629,32 +629,61 @@
                     </div>
                     
                     <div class="modal-body">
-                        
-                        <form role="form" action="" method="post" class="registration-form">
+                        <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-xs-12 col-sm-6">
+                            <h4>Datos Personales</h4>
+                            <p>(*) Campos Requeridos.</p>
+                               <form role="form" action="" method="post" class="registration-form">
                             <div class="form-group">
                                 <label class="sr-only" for="form-first-name">Nombre</label>
-                                <input type="text" name="form-first-name" placeholder="Ingresa tu Nombre..." class="form-first-name form-control" id="form-first-name">
+                                <input type="text" name="form-first-name" placeholder="Nombre (*)" class="form-first-name form-control" id="form-first-name">
                             </div>
                             <div class="form-group">
                                 <label class="sr-only" for="form-last-name">Apellido</label>
-                                <input type="text" name="form-last-name" placeholder="Apellidos..." class="form-last-name form-control" id="form-last-name">
+                                <input type="text" name="form-last-name" placeholder="Primer apellido (*)" class="form-last-name form-control" id="form-last-name">
                             </div>
                             <div class="form-group">
-                                <label class="sr-only" for="form-email">Email</label>
-                                <input type="text" name="form-email" placeholder="Email..." class="form-email form-control" id="form-email">
+                                <label class="sr-only" for="form-email">T.I. o C.C.</label>
+                                <input type="text" name="form-email" placeholder="T.I. o C.C. (*)" class="form-email form-control" id="form-email">
                             </div>
                             <div class="form-group">
-                                <label class="sr-only" for="form-email">Repite tu Email</label>
-                                <input type="text" name="form-email" placeholder="Ingrese nuevamente Email..." class="form-email form-control" id="form-email">
+                                <label class="sr-only" for="form-email">Email (*)</label>
+                                <input type="text" name="form-email" placeholder="Email (*)" class="form-email form-control" id="form-email">
                             </div>
-                            <!-- <div class="form-group">
+                            <div class="form-group">
+                                <label class="sr-only" for="form-email">Repite tu Email (*)</label>
+                                <input type="text" name="form-email" placeholder="Repite tu Email (*)" class="form-email form-control" id="form-email">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="form-email">Contraseña (*)</label>
+                                <input type="text" name="form-email" placeholder="Contraseña (*)" class="form-email form-control" id="form-email">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="form-email">Celular</label>
+                                <input type="text" name="form-email" placeholder="Celular" class="form-email form-control" id="form-email">
+                            </div> 
+                            <div class="form-group">
+                                <h5>Sexo</h5>
+                                <label class="cbx-label" for="input-20">Masculino</label>
+                                <input type="checkbox" id="input-20" data-toggle="checkbox-x" value="1" data-three-state="false">
+                                <label class="cbx-label" for="input-20">Femenino</label>
+                                <input type="checkbox" id="input-20" data-toggle="checkbox-x" value="1" data-three-state="false">
+
+                                
+                            </div>                             <!-- <div class="form-group">
                                 <label class="sr-only" for="form-about-yourself">About yourself</label>
                                 <textarea name="form-about-yourself" placeholder="About yourself..." 
                                             class="form-about-yourself form-control" id="form-about-yourself"></textarea>
                             </div> -->
                             <button type="submit" class="btn">Registrate</button>
                         </form>
-                        
+                          </div>
+                          <div class="col-xs-6">.col-xs-6</div>
+                        </div>
+                                                
+                       
+                       </div> 
                     </div>
                     
                 </div>
@@ -691,7 +720,6 @@
                             </div>
 
                             <div id="contenido">
-
                                 <div class="form-group">
                                     <label class="sr-only" for="form-first-name">Correo electrónico</label>
                                     <input type="text" name="form-first-name" placeholder="Correo electrónico" class="form-first-name form-control" id="form-first-name">
