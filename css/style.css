@@ -1970,6 +1970,11 @@ button.btn:active:focus, button.btn.active:focus { outline: 0; opacity: 0.6; bac
     margin-top: 30px;
 }
 
+#modal-register  .modal-content {   
+    margin-top: 70px;
+}
+
+
 .modal-header {
     padding: 10px 10px 5px 10px;
     background: #3A4557;
@@ -2002,6 +2007,16 @@ button.btn:active:focus, button.btn.active:focus { outline: 0; opacity: 0.6; bac
     text-align: left;
     -moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;
 }
+
+
+
+#modal-register .modal-body {
+    padding: 25px 25px 30px 25px;
+    background: #eee;
+    text-align: left;
+    -moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;
+}
+
 .modal-body img {
     margin-bottom: 15px;
 }
