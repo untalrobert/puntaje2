@@ -1967,7 +1967,7 @@ button.btn:active:focus, button.btn.active:focus { outline: 0; opacity: 0.6; bac
     -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
     border: 0;
     text-align: left;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 #modal-register  .modal-content {   
