@@ -1979,6 +1979,7 @@ button.btn:active:focus, button.btn.active:focus { outline: 0; opacity: 0.6; bac
 }
 .modal-header h4 {
     font-size: 19px;
+    text-align: -webkit-center;
     
 }
 .modal-header .close {
@@ -2072,8 +2073,23 @@ label{
     vertical-align: middle;
     font-weight: 300;
     box-shadow: none;
-
 }
+
+.checkbox p{
+    line-height: 16px;
+    color: #FD625E;
+    padding-left: 6px;
+}
+.checkbox p:hover{
+   
+    color: #1DB578;
+    
+}
+
+.modal-header .close{
+    margin-top: -7px;
+}
+
 
 
 

@@ -696,14 +696,21 @@
                             <h4>Datos Académicos</h4>
                             <p>(*) Campos Requeridos.</p>
                                <form role="form" action="" method="post" class="registration-form">
+                                  <hr class="line2">
+                            <div class="form-group egresado">
+                                 <div class="checkbox">
+                                   <label>
+                                       <input type="checkbox" id="checkboxSuccess" value="option1"style='cursor: pointer;' onClick="muestra_oculta('mayoria_edad')" title="contraseña" class="boton_mostrar"/>
+                                       <span class="lbl padding-6">Egresado</span>
+                                    </label>                                    
+                                  </div>
+                                  <hr class="line3">                               
+                            </div>
+                            <div id="mayoria_edad">
                             <div class="form-group">
                                 <label class="sr-only" for="form-first-name">Colegio</label>
                                 <input type="text" name="form-first-name" placeholder="Colegio (*) minimo 5 caracteres" class="form-first-name form-control" id="form-first-name">
-                            </div>
-                            <div class="form-group">
-                                <div class="g-recaptcha" data-sitekey="6LcePAATAAAAAGPRWgx90814DTjgt5sXnNbV5WaW">                           
-                                </div>                         
-                            </div>
+                            </div>                           
                             <div class="form-group grado">
                                   <!-- <label for="disabledSelect">Grado</label> -->
                                   <select id="disabledSelect" class="form-control grado">
@@ -769,35 +776,26 @@
                                     <option>18</option>
                                     <option>19</option>
                                     <option>20</option>
-
-
                                   </select>
                             </div>
-
                             <hr class="line2">
+                        </div>
+                            <div class="form-group">
+                                <div class="g-recaptcha" data-sitekey="6LcePAATAAAAAGPRWgx90814DTjgt5sXnNbV5WaW">                           
+                                </div>                         
+                            </div>
                             <div class="form-group sex">
-                                <h5>Sexo</h5>
-                                 <div class="checkbox-primary">
-                                   <label>
-                                       <input type="radio" name="validacion4" value="SI"/>
-                                       <span class="lbl padding-6">Masculino</span>
-                                    </label> 
+                                <h5>Terminos y Condiciones</h5>
+                                 <div class="checkbox">
                                     <label>
-                                       <input type="radio" name="validacion4" value="SI"/>
-                                       <span class="lbl padding-6">Femenino</span>
-                                    </label> 
+                                      <input type="checkbox" id="checkboxSuccess" value="option1">
+                                      <a href="http://www.puntajenacional.co/account/condicionesUso" target="_blank"><p>He leído y acepto las condiciones generales de uso de Puntaje Nacional</p></a>
+                                    </label>
                                   </div>
-                                  <hr class="line3">                     
+                                  <hr class="line3">              
                                 
                             </div>
-                            <div class="form-group sex">
-                                <h5>Fecha de nacimiento</h5>
-                                 <div id="datepicker" class="input-group date" data-date-format="mm-dd-yyyy">
-                                    <input class="form-control" type="text" readonly />
-                                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
-                                </div>                              
-                                
-                            </div>
+                            
                             <button type="submit" class="btn">Registrate</button>
                         </form>
                           </div>
@@ -891,17 +889,9 @@
 
 
 
-      
+     
    
-    <script type="text/javascript">
-       $(function () {
-      $("#datepicker").datepicker({ 
-            autoclose: true, 
-            todayHighlight: true
-      }).datepicker('update', new Date());;
-    });
-
-    </script>
+    
 
 
     
