@@ -13,6 +13,8 @@
 <!-- Start Font -->
     <link type="text/css" rel="stylesheet" href="css/font-awesome.css" /><!-- Font Icon Fontawesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet" type="text/css" />
 <!-- End Font -->
     
     <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" /><!-- Bootstrap -->  
@@ -663,10 +665,9 @@
                                 <label class="sr-only" for="form-email">Celular</label>
                                 <input type="text" name="form-email" placeholder="Celular" class="form-email form-control" id="form-email">
                             </div>
-                            <hr class="line">
+                            <hr class="line2">
                             <div class="form-group sex">
                                 <h5>Sexo</h5>
-
                                  <div class="checkbox-primary">
                                    <label>
                                        <input type="radio" name="validacion4" value="SI"/>
@@ -676,19 +677,84 @@
                                        <input type="radio" name="validacion4" value="SI"/>
                                        <span class="lbl padding-6">Femenino</span>
                                     </label> 
-                                  </div>                              
+                                  </div>
+                                  <hr class="line3">                     
                                 
-                            </div>                             <!-- <div class="form-group">
-                                <label class="sr-only" for="form-about-yourself">About yourself</label>
-                                <textarea name="form-about-yourself" placeholder="About yourself..." 
-                                            class="form-about-yourself form-control" id="form-about-yourself"></textarea>
-                            </div> -->
+                            </div>
+                            <div class="form-group sex">
+                                <h5>Fecha de nacimiento</h5>
+                                 <div id="datepicker" class="input-group date" data-date-format="mm-dd-yyyy">
+                                    <input class="form-control" type="text" readonly />
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                                </div>                              
+                                
+                            </div>
                             <button type="submit" class="btn">Registrate</button>
                         </form>
                           </div>
-                          <div class="col-xs-6">.col-xs-6</div>
-                        </div>
-                                                
+                          <div class="col-xs-6">
+                              <div class="col-xs-6 col-sm-12">
+                            <h4>Datos Académicos</h4>
+                            <p>(*) Campos Requeridos.</p>
+                               <form role="form" action="" method="post" class="registration-form">
+                            <div class="form-group">
+                                <label class="sr-only" for="form-first-name">Nombre</label>
+                                <input type="text" name="form-first-name" placeholder="Nombre (*)" class="form-first-name form-control" id="form-first-name">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="form-last-name">Apellido</label>
+                                <input type="text" name="form-last-name" placeholder="Primer apellido (*)" class="form-last-name form-control" id="form-last-name">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="form-email">T.I. o C.C.</label>
+                                <input type="text" name="form-email" placeholder="T.I. o C.C. (*)" class="form-email form-control" id="form-email">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="form-email">Email (*)</label>
+                                <input type="text" name="form-email" placeholder="Email (*)" class="form-email form-control" id="form-email">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="form-email">Repite tu Email (*)</label>
+                                <input type="text" name="form-email" placeholder="Repite tu Email (*)" class="form-email form-control" id="form-email">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="form-email">Contraseña (*)</label>
+                                <input type="text" name="form-email" placeholder="Contraseña (*)" class="form-email form-control" id="form-email">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="form-email">Celular</label>
+                                <input type="text" name="form-email" placeholder="Celular" class="form-email form-control" id="form-email">
+                            </div>
+                            <hr class="line2">
+                            <div class="form-group sex">
+                                <h5>Sexo</h5>
+                                 <div class="checkbox-primary">
+                                   <label>
+                                       <input type="radio" name="validacion4" value="SI"/>
+                                       <span class="lbl padding-6">Masculino</span>
+                                    </label> 
+                                    <label>
+                                       <input type="radio" name="validacion4" value="SI"/>
+                                       <span class="lbl padding-6">Femenino</span>
+                                    </label> 
+                                  </div>
+                                  <hr class="line3">                     
+                                
+                            </div>
+                            <div class="form-group sex">
+                                <h5>Fecha de nacimiento</h5>
+                                 <div id="datepicker" class="input-group date" data-date-format="mm-dd-yyyy">
+                                    <input class="form-control" type="text" readonly />
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                                </div>                              
+                                
+                            </div>
+                            <button type="submit" class="btn">Registrate</button>
+                        </form>
+                          </div>
+
+                          </div>
+                        </div>                                                
                        
                        </div> 
                     </div>
@@ -753,7 +819,9 @@
     <!-- /Registration Modal -->
     
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+   <!--  // <script src="js/bootstrap.min.js"></script> -->
+   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+   <script src="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
     <script src="js/waypoints.min.js"></script> 
     <script src="js/waypoints-sticky.min.js"></script> 
     <script src="js/retina.min.js"></script> 
@@ -774,22 +842,19 @@
 
 
 
-  
-<script type="text/javascript">
-    
+      
+   
+    <script type="text/javascript">
+       $(function () {
+      $("#datepicker").datepicker({ 
+            autoclose: true, 
+            todayHighlight: true
+      }).datepicker('update', new Date());;
+    });
 
-function muestra_oculta(id){
-if (document.getElementById){ //se obtiene el id
-var el = document.getElementById(id); //se define la variable "el" igual a nuestro div
-el.style.display = (el.style.display == 'none') ? 'block' : 'none'; //damos un atributo display:none que oculta el div
-}
-}
-window.onload = function(){/*hace que se cargue la función lo que predetermina que div estará oculto hasta llamar a la función nuevamente*/
-muestra_oculta('contenido');/* "contenido_a_mostrar" es el nombre que le dimos al DIV */
-}
+    </script>
 
-</script>
-    
+
     
 </body>
 </html>

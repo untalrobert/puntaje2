@@ -23,23 +23,23 @@
 
 
 
-// Form 
+// Form remember password
 
-  $(document).ready(function(){
-  $('#divocultamuestra').hide()
-   $("#botonocultamuestra").click(function () {
-      $("#divocultamuestra").each(function() {
-        displaying = $(this).css("display");
-        if(displaying == "block") {
-          $(this).fadeOut('slow',function() {
-           $(this).css("display","none");
-          });
-        } else {
-          $(this).fadeIn('slow',function() {
-            $(this).css("display","block");
-          });
-        }
-      });
-    });
-  });
+  <script type="text/javascript">
+        
+
+    function muestra_oculta(id){
+    if (document.getElementById){ //se obtiene el id
+    var el = document.getElementById(id); //se define la variable "el" igual a nuestro div
+    el.style.display = (el.style.display == 'none') ? 'block' : 'none'; //damos un atributo display:none que oculta el div
+    }
+    }
+    window.onload = function(){/*hace que se cargue la función lo que predetermina que div estará oculto hasta llamar a la función nuevamente*/
+    muestra_oculta('contenido');/* "contenido_a_mostrar" es el nombre que le dimos al DIV */
+    }
+
+    </script>
+
+
+
  
