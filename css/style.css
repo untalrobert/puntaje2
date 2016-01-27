@@ -2058,6 +2058,28 @@ label{
 #datepicker > span:hover{
     cursor: pointer;
 }
+.grado{
+    border-radius: 0;
+    height: 35px;
+    font-style: italic;
+    border: 1px solid #ddd;
+    font-size: 13px;
+    background: #F8F8F8;
+    color: #8F8F8F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    border-radius: 4px;
+    vertical-align: middle;
+    font-weight: 300;
+    box-shadow: none;
+
+}
+
+#disabledSelect option{
+    padding: 0 20px 0px 20px;
+
+}
+
 
 /*
 Responsive
