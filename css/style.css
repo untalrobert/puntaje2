@@ -2029,8 +2029,13 @@ button.btn:active:focus, button.btn.active:focus { outline: 0; opacity: 0.6; bac
     border-color: #fd625e;
 }
 
-#Ingreso_Plataforma{
-    margin-top: 0px;
+#Ingreso_Plataforma_recu{
+    margin-top: 6px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    vertical-align: middle;
+    border-radius: 4px;
 }
 .modal-body p{
     font-size: 14px;
