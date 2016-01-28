@@ -1363,6 +1363,7 @@ ul.tags li a:hover{
 }
 #contact h2{
     color: #fff;
+    text-align: center;
 }
 #contact .contacstudent{
     text-align: center;
@@ -1374,10 +1375,11 @@ ul.tags li a:hover{
     height: 40px;
     padding: 10px 25px;
     background: #E0995E;
-    border-bottom: 5px solid #CA864E;
+    border-bottom: 5px solid #944A0D;
 }
 
 #contact{
+    padding-top: 40px;
     background: #C75B5B;
 }
 
