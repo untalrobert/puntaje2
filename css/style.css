@@ -172,7 +172,7 @@ Home
 
 
 .students{
-    padding-bottom: 50px;
+    padding-bottom: 0px;
 }
 .students h4{
     color: #fff;
@@ -745,6 +745,15 @@ ul.list-author li:last-child{
 
 /*
 Section video Puntaje */
+
+
+
+.testimonial p{
+    line-height: 26px;
+    font-size: 16px;
+
+}
+
 
 .line-centered {
     position: relative;
