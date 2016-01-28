@@ -1354,39 +1354,45 @@ ul.tags li a:hover{
 	text-decoration:none;
 }
 
-/*
-Contact
-=========================== */
-ul.listForm{
-	float:left;
-	width:100%;
-	padding:0;
-	margin:0;
+
+
+
+/*Contact*/
+#contact p{
+    color: #fff;
+}
+#contact h2{
+    color: #fff;
+}
+#contact .contacstudent{
+    text-align: center;
 }
 
-ul.listForm li {
-	float:left;
-	width:50%;
-	padding:0 10px;
-	margin:0 0 30px 0;	
-	list-style:none;	
+#contact .btn{
+    width: 60%;
+    margin-top: 10px;
+    height: 40px;
+    padding: 10px 25px;
+    background: #E0995E;
+    border-bottom: 5px solid #CA864E;
 }
 
-ul.listForm li.last-list {
-	margin-bottom:0;
+#contact{
+    background: #C75B5B;
 }
 
-ul.listForm li.full-list{
-	width:100%;
+#contact input{
+    width: 100%;
+    border: 1px solid #4C4747;
+
 }
 
-#sendmessage{
-	display:none;
+
+#contact textarea{
+    width: 100%;
+
 }
 
-#sendmessage.show,.show  {
-	display:block;
-}
 
 /*
 Footer
