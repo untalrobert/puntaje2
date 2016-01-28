@@ -157,17 +157,9 @@ blockquote{
     letter-spacing: 0.7px;
     line-height: 36px;
     position: relative;
-    padding: 0 0 0 60px;
+    padding: 0 0 0 0px;
 }
 
-blockquote:before{
-    content: "“";
-    position: absolute;
-    left: 0;
-    top: 31px;
-    font-family: Georgia;
-    font-size: 100px;
-}
 
 /*
 General
