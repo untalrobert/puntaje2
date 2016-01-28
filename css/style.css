@@ -176,7 +176,7 @@ Home
 }
 .students h4{
     color: #fff;
-    line-height: 50px;
+    line-height: 45px;
     
 }
 
@@ -571,7 +571,7 @@ Testimonial
 =========================== */
 .testimonial{
     position: relative;
-    padding: 71px 0 0 0;
+    padding: 40px 0 0 0;
     overflow: hidden;
 
 }
