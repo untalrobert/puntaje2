@@ -1371,7 +1371,7 @@ ul.tags li a:hover{
 
 #contact .btn{
     width: 60%;
-    margin-top: 10px;
+    margin-top: 18px;
     height: 40px;
     padding: 10px 25px;
     background: #E0995E;
@@ -1380,12 +1380,12 @@ ul.tags li a:hover{
 
 #contact{
     padding-top: 40px;
-    background: #C75B5B;
+    background: #008491;
 }
 
 #contact input{
     width: 100%;
-    border: 1px solid #4C4747;
+    border: 1px solid #929191;
 
 }
 
