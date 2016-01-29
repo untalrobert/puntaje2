@@ -21,7 +21,7 @@
 
 })(window.jQuery);
 
-// datepicker Form
+// datepicker Form Calendar
 
   $(function () {
       $("#datepicker").datepicker({ 
@@ -29,6 +29,15 @@
             todayHighlight: true
       }).datepicker('update', new Date());;
     });
+
+
+  $.fn.datepicker.dates['en'] = {
+    days: ["Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"],
+    daysShort: ["Dom", "Lun", "Mar", "Mir", "Jue", "Vie", "Sab", "Dom"],
+    daysMin: ["Do", "Lu", "Ma", "Mi", "Ju", "Vi", "Sa", "Do"],
+    months: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Deciembre"],
+    monthsShort: ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"]
+};
 
 
 
