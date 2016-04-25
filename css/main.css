@@ -550,8 +550,13 @@ blockquote::before {
 
 .tweet { font-size: 23px; }
 
-.sub-form .btn { padding: 1em 2em; }
+.sub-form .btn { padding: 1em 2em;
+
+ }
 }
+
+
+
 
 /* ==========================================================================
    20.Medium devices (desktops, 992px and up) 
