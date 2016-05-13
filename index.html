@@ -772,6 +772,10 @@
                                 <input type="text" name="form-email" placeholder="Contraseña (*)" class="form-email form-control" id="form-email">
                             </div>
                             <div class="form-group">
+                                <label class="sr-only" for="form-email">Contraseña (*)</label>
+                                <input type="text" name="form-email" placeholder="Repetir Contraseña (*)" class="form-email form-control" id="form-email">
+                            </div>
+                            <div class="form-group">
                                 <label class="sr-only" for="form-email">Celular</label>
                                 <input type="text" name="form-email" placeholder="Celular" class="form-email form-control" id="form-email">
                             </div>
@@ -1040,14 +1044,19 @@
                             </div>
                              <hr class="lin" style="border-top: 1px solid #FD625E;">
 
-                            <h6>*Si usted es Egresado o Docente seleccione la siguiente casilla.</h6>
+                            <h6>* Si usted es Egresado o Docente seleccione una de  las siguiente casilla.</h6>
                             <div class="form-group egresado">
                                  <div class="checkbox">
                                    <label>
                                        <input type="checkbox" id="checkboxSuccess" value="option1"style='cursor: pointer;' onClick="muestra_oculta('mayoria_edad')" title="contraseña" class="boton_mostrar"/>
-                                       <span class="lbl padding-6">Egresado  / Docente</span>
+                                       <span class="lbl padding-6">Egresado</span>
                                     </label>
+                                    <label>
+                                        <input type="checkbox" id="checkboxSuccess" value="option1"style='cursor: pointer;' onClick="muestra_oculta('mayoria_edad')" title="contraseña" class="boton_mostrar"/>
+                                        <span class="lbl padding-6">Docente</span>
+                                     </label>
                                   </div>
+
                                   <hr class="line3" style="border-top: 1px solid #FD625E;">
                             </div>
                             <div class="form-group sex">
