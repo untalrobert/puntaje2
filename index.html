@@ -1217,18 +1217,18 @@
     <script>
     var cont=0
     function cambia() {
-    cont = cont % 2;
-    if (cont==1){
-    document.getElementById("fotocambia").src="images/simulacro.png";
+      cont = cont % 2;
+        if (cont==1){
+        document.getElementById("fotocambia").src="images/simulacro.png";
     }
-    else{document.getElementById("fotocambia").src="images/simulacro2.png";
+      else{document.getElementById("fotocambia").src="images/simulacro2.png";
     }
-    cont++;
+      cont++;
     }
-    function inicio() {
-    setInterval(cambia,900);
+      function inicio() {
+      setInterval(cambia,900);
     }
-    window.onload=inicio;
+      window.onload=inicio;
     </script>
 
 
