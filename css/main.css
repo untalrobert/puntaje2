@@ -218,125 +218,7 @@ transform:translateY(0);
    4.Play button
    ========================================================================== */
   
-
-
-/*CHAT LATERAL*/
-
-.tituloTwieter{
-    height: 40px;
-    background-color: #1A658E;
-    margin-top: 59px;
-}
-.tituloTwieter h3{
-    color: #fff;
-    text-align: center;
-    padding-top: 3px;
-    font-size: 20px;
-}
-.nav .nav-tabs{
-  text-align: center;
-}
-.subnav{
-  text-align: center;
-}
-.subnav{
-  margin-top: 35px;
-  
-}
-.subnav{
  
-  border-bottom: none;
-  text-align: center;
-
-}
-.subnav li a{
-  text-align: center;
-  font-size: 12px;
-  color: #084B6F;
-  background-color: #9FDAEC;
-  font-weight: 600;
-  
-}
-
-.clases{
-    padding-bottom: 20px;
-    text-align: center;
-    padding-top: 10px;
-}
-#videosClases{
-  padding-top: 2px;
-}
-
-/*.subnav li a br{
-  font-size: 5px;
-}*/
-.nav-tabs{
-  border-bottom: none;
-
-}
-.envivo{
-  margin-top: 10px;
-  padding-bottom: 0px;
-}
-.video{
-  z-index: 100;
-}
-.envivioStreaming{
-  margin-top: 60px;
-}
-.infovideo{
-  width: 18%;
-}
-.thumbnail .caption{
-  padding: 0px;
-}
- .titulosVideo .thumbnail h5{
-  text-align: center;
- }
-
-#elegirclases{
-  padding: 12px;
-}
-  .comoTrabajar{
-  padding: 0px;
- }
- #videosClases{
-  padding: 10px;
- }
- .historiaClases li a{
-  background-color: #1A658E;
-  color: #fff;
- }
- .historiaClases li a:hover{
-  background-color: #4ECCBB;
-  color: #333;
- }
-
- #quote{
-  background-color: #f9f9f9;
-  
- }
- .bg-parlex {
-  text-align: center;
- }
-
- .btnVideos{
-  padding: 2px 10px;
-  padding-top: 1px;
-  text-align: center;
-  margin-top: 5px;
-  text-transform: initial;
-  background-color: #1A658E;
-  border-bottom: solid 4px #074263;
-
- }
- .thumbnail {
-  text-align: center;
- }
- .logoUniandes{
-  text-align: -webkit-center;
- }
-
 /*.play-btn { margin: 2.25em 0; }
 
 .hero-section .play-btn img { transition: opacity 0.3s linear; }
@@ -395,15 +277,6 @@ transform:translateY(0);
   transform: translateX(-50%) translateY(-50%);
   margin: 0;
 }
-
-
-
-/*student teacher test*/
-
-
-
-
-
 
 
 
@@ -550,13 +423,8 @@ blockquote::before {
 
 .tweet { font-size: 23px; }
 
-.sub-form .btn { padding: 1em 2em;
-
- }
+.sub-form .btn { padding: 1em 2em; }
 }
-
-
-
 
 /* ==========================================================================
    20.Medium devices (desktops, 992px and up) 

@@ -104,36 +104,6 @@ label{
 	margin-bottom:30px;
 }
 
-
-
-
-.login_mensaje_error {
-    background: rgba(255,0,0,0.6);
-    color: #fff;
-    font-size: 12px;
-    line-height: 12px;
-    padding: 12px 15px;
-    font-style: italic;
-    margin-bottom: 12px;
-    box-shadow: 1px 1px 4px rgba(0,0,0,0.2);
-}
-.login_mensaje_error li p{
-    color: #fff;
-    line-height: 18px;
-    font-size: 13px;
-    margin-bottom: 0px;
-}
-    
-   
-.login_mensaje_error li{
-    list-style-type: disc;
-    list-style-position:  outside;
-    line-height: 12px;
-
-}
-
-
-
 /*
 Breadcrumb
 =========================== */
@@ -187,9 +157,17 @@ blockquote{
     letter-spacing: 0.7px;
     line-height: 36px;
     position: relative;
-    padding: 0 0 0 0px;
+    padding: 0 0 0 60px;
 }
 
+blockquote:before{
+    content: "“";
+    position: absolute;
+    left: 0;
+    top: 31px;
+    font-family: Georgia;
+    font-size: 100px;
+}
 
 /*
 General
@@ -239,11 +217,11 @@ section,
 
 .pattern{
     background-image: url(../images/fondo.jpg);
-     background-attachment: fixed;
+    background-attachment: fixed;
      
 }
 .pattern2{
-    background-image: url(../images/fondo_inicio.jpg);
+    background-image: url(../images/city.jpg);
     background-attachment: fixed;
     -webkit-filter: invert(5%);
     filter: invert(60%);
@@ -323,7 +301,9 @@ Button
 }
 
 .btn.btn-default{
-    color: #fff;   
+    color: #fff;
+    background-color: #3a4557;
+    border-bottom: solid 4px #2b3546;
 }
 
 .btn.btn-default:hover,

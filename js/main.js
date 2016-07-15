@@ -100,12 +100,3 @@ $("ul.feature-two").each(function(){
         $("li", this).last().css("margin-bottom","-19px");
     });
 
-
-// modal Publicidad
-
-$('#modal-publicidad').modal('show')  
-
-
-
-
-
