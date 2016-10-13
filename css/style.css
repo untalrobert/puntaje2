@@ -2958,13 +2958,17 @@ a.openpanel:active{
     top: 200px; /* Bajamos la barra 200px de arriba a abajo */
     z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
 }
+.social ul li i{
+  padding: 10px;
+  width: 35px;
+}
 
     .social ul {
         list-style: none;
     }
 
     .social ul li a {
-        border-radius: 50%;
+        /*border-radius: 50%;*/
         display: inline-block;
         color:#fff;
         background: #000;
@@ -2973,12 +2977,12 @@ a.openpanel:active{
     }
 
 
-    .social ul li .icon-facebook {background:#3b5998; padding: 4px 12px; margin-bottom: 5px;} /* Establecemos los colores de cada red social, aprovechando su class */
-    .social ul li .icon-twitter {background: #00abf0;  padding: 4px 9px; margin-bottom: 5px;}
-    .social ul li .icon-googleplus {background: #d95232; padding: 4px 7px; margin-bottom: 5px;}
-    .social ul li .icon-pinterest {background: #ae181f; padding: 4px 11px; margin-bottom: 5px;}
-    .social ul li .icon-youtube {background: #ae181f; padding: 4px 9px; margin-bottom: 5px;}
-    .social ul li .icon-mail {background: #666666;padding: 4px 9px;}
+    .social ul li .icon-facebook {background:#3b5998;  margin-bottom: 5px;} /* Establecemos los colores de cada red social, aprovechando su class */
+    .social ul li .icon-twitter {background: #00abf0;   margin-bottom: 5px;}
+    .social ul li .icon-googleplus {background: #d95232;  margin-bottom: 5px;}
+    .social ul li .icon-pinterest {background: #ae181f;  margin-bottom: 5px;}
+    .social ul li .icon-youtube {background: #ae181f;  margin-bottom: 5px;}
+    .social ul li .icon-mail {background: #666666;}
 
     .social ul li a:hover {
         background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
