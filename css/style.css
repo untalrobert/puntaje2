@@ -2913,27 +2913,32 @@ a.openpanel:active{
 
 
 @media (max-width: 991px) {
+.services-content-bg {
+    background-image: none;
+}
 
-    .services-content-bg{
-        background-image: none;
-        }
-    .top-services-space{
-        padding-top: 100px;
-        }
-    .top-services-space-3{
-        padding-top: 100px;
-        }
-    .top-services-space-4{
-        padding-top: 150px;
-        }
-    .add-image-inner{
-        top: 70px;
-        left: 0px;
-        }
-    .add-image-inner-2{
-        top: 70px;
-        right: 0px;
-        }
+.top-services-space {
+    padding-top: 100px;
+}
+
+.top-services-space-3 {
+    padding-top: 100px;
+}
+
+.top-services-space-4 {
+    padding-top: 150px;
+}
+
+.add-image-inner {
+    top: 70px;
+    left: 0px;
+}
+
+.add-image-inner-2 {
+    top: 70px;
+    right: 0px;
+}
+
 
 }
 @media (max-width: 768px){
@@ -2962,29 +2967,48 @@ a.openpanel:active{
   padding: 10px;
   width: 35px;
 }
+.social ul {
+  list-style: none;
+}
 
-    .social ul {
-        list-style: none;
-    }
+.social ul li a {
+  /*border-radius: 50%;*/
+  display: inline-block;
+  color:#fff;
+  background: #000;
+  text-decoration: none;
 
-    .social ul li a {
-        /*border-radius: 50%;*/
-        display: inline-block;
-        color:#fff;
-        background: #000;
-        text-decoration: none;
+}
 
-    }
+.social ul li .icon-facebook {
+    background: #3b5998;
+    margin-bottom: 5px;
+}
 
+.social ul li .icon-twitter {
+    background: #00abf0;
+    margin-bottom: 5px;
+}
 
-    .social ul li .icon-facebook {background:#3b5998;  margin-bottom: 5px;} /* Establecemos los colores de cada red social, aprovechando su class */
-    .social ul li .icon-twitter {background: #00abf0;   margin-bottom: 5px;}
-    .social ul li .icon-googleplus {background: #d95232;  margin-bottom: 5px;}
-    .social ul li .icon-pinterest {background: #ae181f;  margin-bottom: 5px;}
-    .social ul li .icon-youtube {background: #ae181f;  margin-bottom: 5px;}
-    .social ul li .icon-mail {background: #666666;}
+.social ul li .icon-googleplus {
+    background: #d95232;
+    margin-bottom: 5px;
+}
 
-    .social ul li a:hover {
-        background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+.social ul li .icon-pinterest {
+    background: #ae181f;
+    margin-bottom: 5px;
+}
 
-    }
+.social ul li .icon-youtube {
+    background: #ae181f;
+    margin-bottom: 5px;
+}
+
+.social ul li .icon-mail {
+    background: #666666;
+}
+
+.social ul li a:hover {
+    background: #000;
+}
