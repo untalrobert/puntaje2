@@ -2834,7 +2834,7 @@ a.openpanel:active{
 
 }
 .formularioLateral .panel-heading{
-  background: rgb(38, 167, 216);
+  background:rgb(38, 167, 216);
 }
 .olvido{
         text-align: -webkit-auto;
@@ -2855,9 +2855,9 @@ a.openpanel:active{
     text-align: center;
     font-size: 17px;
     font-weight: 600;
-    color: #f9f9fb;
+    color: #06718c;
     border: 1px solid #3a6686;
-    background-color: rgb(38, 167, 216);
+    background-color: rgba(255, 255, 255, 0.46);
     position: relative;
     -webkit-border-radius: 25px 25px;
     -moz-border-radius: 25px 25px;
@@ -2869,6 +2869,9 @@ a.openpanel:active{
 .dropcaps_icon p{
   margin-bottom: 0px;
   padding-bottom: 0px;
+}
+.featured_dropcap .fa{
+  margin-top: 6px;
 }
 .intro {
   background: rgba(255, 255, 255, 0.13);
