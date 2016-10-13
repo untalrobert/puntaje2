@@ -64,7 +64,9 @@ strong { font-weight: 600; }
 .hero-section {
   /*background: url(../images/bg-intro.jpg) center center no-repeat scroll;*/
   /*background: url(../images/fondo-parents.png) center center no-repeat scroll;*/
-  background: url(../images/call-to-action.png) center center no-repeat scroll;
+  /*background: url(../images/call-to-action.png) center center no-repeat scroll;*/
+  background: url(../images/city.jpg) center center no-repeat scroll;
+
   background-attachment: fixed !important;
   background-color: #0c105f;
   background-size: cover;
