@@ -1,7 +1,7 @@
 $(function() {
     "use strict";
 
-  
+
 
     /* ==========================================================================
    sticky nav
@@ -99,4 +99,3 @@ $("ul.feature-two").each(function(){
         $this.append("<span class='line'></span>");
         $("li", this).last().css("margin-bottom","-19px");
     });
-

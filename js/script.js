@@ -1,7 +1,7 @@
 (function($) {
-	
+
 	"use strict";
-	
+
 
 	//Clients Testimonial Slider
 	if($('.testimonial-slider-full').length){
@@ -15,7 +15,7 @@
 			pager:true
 		});
 	}
-	
+
 
 	
 
@@ -23,7 +23,7 @@
 
 
 
-// Form remember password        
+// Form remember password
 
     function muestra_oculta(id){
     if (document.getElementById){ //se obtiene el id
@@ -46,8 +46,3 @@
     $(document).ready = function(){/*hace que se cargue la función lo que predetermina que div estará oculto hasta llamar a la función nuevamente*/
     muestra_oculta('out');/* "contenido_a_mostrar" es el nombre que le dimos al DIV */
     }
-
-
-
-
- 

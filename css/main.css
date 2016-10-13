@@ -2,9 +2,9 @@
 /* ==========================================================================
    1.General
    ========================================================================== */
-   
+
 body {
- 
+
   font-family: 'Raleway', sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -20,7 +20,7 @@ h3,
 h4,
 h5,
 h6 {
-  
+
   color: #4c4c4c;
 }
 
@@ -36,7 +36,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #fa5454;
+  color: #22c48a;
   text-decoration: none;
 }
 
@@ -59,10 +59,14 @@ strong { font-weight: 600; }
 
 /* ==========================================================================
    2.Hero section
-   ========================================================================== */ 
-   
+   ========================================================================== */
+
 .hero-section {
-  background: url(../img/bg.jpg) center center no-repeat scroll;
+  /*background: url(../images/bg-intro.jpg) center center no-repeat scroll;*/
+  /*background: url(../images/fondo-parents.png) center center no-repeat scroll;*/
+  background: url(../images/call-to-action.png) center center no-repeat scroll;
+  background-attachment: fixed !important;
+  background-color: #0c105f;
   background-size: cover;
   padding: 0 0 4.5em;
   position: relative;
@@ -95,8 +99,8 @@ strong { font-weight: 600; }
 
 .welcome-message h2 {
   font-size: 22px;
-  color: #fff;
-  font-weight: 400;
+  color: #6adeff;
+  font-weight: 500;
   margin: 0;
 }
 
@@ -146,7 +150,7 @@ strong { font-weight: 600; }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus { color: #fff; }
 
-.navbar-default.stuck .navbar-nav>li>a { 
+.navbar-default.stuck .navbar-nav>li>a {
   color: #4c4c4c;
   font-weight: 400;
 
@@ -154,9 +158,9 @@ strong { font-weight: 600; }
    }
 
 .navbar-default.stuck .navbar-nav > li > a:hover,
-.navbar-default.stuck .navbar-nav > li > a:focus 
+.navbar-default.stuck .navbar-nav > li > a:focus
 
-{ 
+{
   color: #1E83B8;
 
  }
@@ -165,14 +169,14 @@ strong { font-weight: 600; }
 
 .navbar-default.stuck .navbar-nav .btn {
   display: inline-block;
-  background: #f56363;
+  background: #156dac;
   color: #fff;
-  border: 1px solid #f56363;
-}
+  }
+
 
 .navbar-default.stuck .navbar-nav .btn:hover,
 .navbar-default.stuck .navbar-nav .btn:focus {
-  background: #fa5454!important;
+  background: #22c48a!important;
   color: #fff;
 }
 
@@ -217,8 +221,8 @@ transform:translateY(0);
 /* ==========================================================================
    4.Play button
    ========================================================================== */
-  
- 
+
+
 /*.play-btn { margin: 2.25em 0; }
 
 .hero-section .play-btn img { transition: opacity 0.3s linear; }
@@ -229,8 +233,9 @@ transform:translateY(0);
 
 /* ==========================================================================
    8.video tour
-   ========================================================================== */ 
-   
+   ========================================================================== */
+
+
 .video-tour {
   position: relative;
   height: 400px;
@@ -255,7 +260,7 @@ transform:translateY(0);
 
 #bgvid-hero,
 #bgvid {
-  
+
   position: absolute;
   right: 0;
   bottom: 0;
@@ -281,7 +286,7 @@ transform:translateY(0);
 
 
 /* ==========================================================================
-   17.site footer 
+   17.site footer
    ========================================================================== */
 
 
@@ -318,7 +323,7 @@ transform:translateY(0);
 }
 
 /* ==========================================================================
-   18.Social 
+   18.Social
    ========================================================================== */
 
 
@@ -358,24 +363,24 @@ transform:translateY(0);
 /* ==========================================================================
    19.Small devices (tablets, 768px and up)
    ========================================================================== */
-   
+
 @media (min-width: 768px) {
 
 .hero-section { padding: 0 0 7.5em; }
 
 .welcome-message { margin-top: 8.25em; }
 
-.welcome-message h1 {     
+.welcome-message h1 {
   font-size: 58px;
    line-height: 59px;
-   text-shadow: 2px 2px 3px rgba(68, 134, 139, 0.66) 
+   text-shadow: 2px 2px 3px rgba(68, 134, 139, 0.66)
 
     }
 
 
-.welcome-message p {     
+.welcome-message p {
   font-size: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 2px;
     }
 
 .welcome-message h2 { font-size: 23px; }
@@ -427,14 +432,14 @@ blockquote::before {
 }
 
 /* ==========================================================================
-   20.Medium devices (desktops, 992px and up) 
+   20.Medium devices (desktops, 992px and up)
    ========================================================================== */
-   
+
 @media (min-width: 992px) {
 
 .hero-section {
   padding: 3em 0 12.75em;
-  background: none;
+
 }
 
 .hero-section::before { display: none; }
@@ -455,7 +460,10 @@ blockquote::before {
   padding: .75em 1.5em;
 }
 
-.navbar-default .btn:hover { background-color: #fa5454 !important; }
+.navbar-default .btn:hover { background-color: #22c48a !important;
+  /*border-bottom: 4px solid #29866e !important;*/
+  color: #fff !important;
+ }
 
 .navbar-brand { padding: 0; }
 
@@ -463,10 +471,20 @@ blockquote::before {
 
 .welcome-message { margin-top: 3.5em;}
 
- .welcome-message h2 {     
-  font-size: 38px;
-  text-shadow: 2px 2px 3px rgba(68, 134, 139, 0.66)   
-    }
+ .welcome-message h2 {
+  text-align: center;
+  font-size: 23px;
+}
+.welcome-message p{
+  text-align: left;
+  font-size: 17px;
+  font-weight: 300;
+  color: #fff;
+}
+.welcome-message .aprende{
+  text-align: center;
+}
+
 
 .play-btn { margin: 4.5em 0; }
 

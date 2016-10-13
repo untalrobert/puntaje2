@@ -1,9 +1,10 @@
-<!DOCTYPE html>
+matu<!DOCTYPE html>
 
 <html>
 <head>
+<link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
 <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300,700" rel="stylesheet">
-<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Lato" rel="stylesheet"><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <title>Puntaje Nacional</title>
@@ -54,13 +55,6 @@
 
   <header class="hero-section">
 
-  <!--HTML5 Video-->
-  <video id="bgvid-hero" poster="images/city.jpg">
-    <!-- <source src="video/video-hero/vb.mp4" type="video/mp4">
-    <source src="video/video-hero/vb.webm" type="video/webm"> -->
-  </video>
-  <!--HTML5 Video end-->
-
   <!-- <div class="overlay"></div> -->
 
   <!--navigation-->
@@ -81,7 +75,7 @@
           <!-- <li class="scroll"><a href="#contact">Contactanos</a></li> -->
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#" data-toggle="modal" data-target="#modal-register"><i class="fa fa-sign-in"></i> Ingresar</a></li>
+          <!-- <li><a href="#" data-toggle="modal" data-target="#modal-register"><i class="fa fa-sign-in"></i> Ingresar</a></li> -->
           <li><a href="#" class="btn wow fadeInDownBig animated" data-toggle="modal" data-target="#modal-register2">¡Registrate Gratis!</a></li>
         </ul>
       </div>
@@ -93,30 +87,90 @@
   <!--welcome message-->
   <div class="container">
 
-  <section class="container text-center welcome-message" id="AnimatedBg">
-    <div class="row">
-                    <!-- <div class="col-md-6 player">
-                        <div class="video-container">
-                            <iframe src="https://www.youtube.com/embed/efS_KSDqiAg"></iframe>
-                        </div>
-                    </div> -->
-                    <div class="col-md-12" style="text-align:center">
-                        <h1 class="title-one wow fadeInRight animated" >Prepara el Saber 11</h1>
-                        <h2 class="title-one wow fadeInRight animated" >Comunidad Educativa Online 100% Gratuita</h2>
-                        <!-- <h2 class="title-one wow fadeInRight animated" >Prepara el Saber 11</h2> -->
+  <section class="container text-center welcome-message" >
+    <div class="row registrateLateral">
 
-                        <p class="wow fadeInUp animated" data-wow-duration="0.5s">
-                        Aprende lo que quieras como más te acomode, nosotros estamos aquí para apoyarte.
-                        </p>
-                        <a href="#" class="btn btn-success ingreso log wow zoomIn animated"  data-wow-delay="4s"  data-toggle="modal" data-target="#modal-register">Ingresar</a>
-                        <a href="#" class="btn btn-primary registro wow zoomIn animated"  data-wow-delay="4s"  data-toggle="modal" data-target="#modal-register2"> ¡Registrate Ya! </a>
+                    <div class="col-md-7 intro">
+                      <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                          <h2 class="title-one wow zoomInUp animated data-wow-duration="0.2s"" >Prepara el Saber 11</h2>
+                          <div class="featured_dropcap">
+                              <span class="dropcaps_icon"><i class="fa fa-check-square-o"></i></span>
+                              <p>Realiza Simulacros de Lectura Crítica, Matemáticas, Inglés, C. Naturales, C. Sociales</p>
+                          </div>
+                          <div class="featured_dropcap">
+                              <span class="dropcaps_icon"><i class="fa fa-check-square-o"></i></span>
+                              <p>Podrás encontrar material de estudio videos, Guías etc.</p>
+                          </div>
+                          <div class="featured_dropcap">
+                              <span class="dropcaps_icon"><i class="fa fa-check-square-o"></i></span>
+                              <p>Recibe las estadísticas en tiempo real de los simulacros realizados </p>
+                          </div>
+                          <!-- <h2 class="title-one wow zoomInUp animated data-wow-duration="0.2s"" >Comunidad Educativa Online </h2> -->
+                          <!-- <h2 class="title-one wow fadeInRight animated" >Prepara el Saber 11</h2> -->
+
+                          <p class="wow zoomInUp animated aprende" data-wow-duration="1.2s">
+                          Aprende lo que quieras como más te acomode, nosotros estamos aquí para apoyarte.
+                          </p>
+                          <h2 style="font-family: 'Kalam', cursive;color: #fff; font-size:19px;" class="title-one wow zoomInUp animated data-wow-duration="0.2s"">Yo puedo, yo quiero, yo me entreno.</h2>
+                        </div>
+                      </div>
+
+
+
+                    </div>
+
+                    <div class="col-md-4 col-md-offset-1  ">
+
+                      <div class="panel panel-info formularioLateral">
+                        <div class="panel-heading">
+                          <h3 class="panel-title">Ingresar a Puntajenacional.co</h3>
+                        </div>
+                        <div class="panel-body registroPN">
+                          <form role="form" action="" method="post" class="registration-form">
+                              <div class="form-group">
+                                  <label class="sr-only" for="form-first-name">Nombre</label>
+                                  <input type="text" name="form-first-name" placeholder=" T.I. o C.C." class="form-first-name form-control" id="form-first-name">
+                              </div>
+
+                              <div class="form-group">
+                                  <label class="sr-only" for="form-email">Email</label>
+                                  <input type="text" name="form-email" placeholder="Correo Electronico..." class="form-email form-control" id="form-email">
+                              </div>
+                              <div class="olvido">
+                                  <a  href="#" data-toggle="collapse"  data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">¿ Olvido su contraseña ?</a>
+                              <!-- <a href="" id="botonocultamuestra"><p>¿ Olvido su contraseña ?</p></a> -->
+                              </div>
+
+                              <div class="collapse" id="collapseExample">
+                                  <div class="form-group">
+                                      <label class="sr-only" for="form-first-name">Correo electrónico</label>
+                                      <input type="text" name="form-first-name" placeholder="Correo electrónico" class="form-first-name form-control" id="form-first-name">
+                                  </div>
+
+                                  <div class="form-group">
+                                      <label class="sr-only" for="form-email">Email</label>
+                                      <input type="text" name="form-email" placeholder="Correo Electronico..." class="form-email form-control" id="form-email">
+                                  </div>
+                                   <button id="Ingreso_Plataforma" type="submit" class=" btn-info recuperar ingreso">Recuperar contraseña</button>
+
+                              </div>
+
+                              <button id="Ingreso_Plataforma" type="submit" class="btn btn-success ingreso">Ingresar</button>
+                              <div class="registroVentana">
+                              <a href="http://www.puntajenacional.co/message-register&error=2">Registrarme</a>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
                     </div>
                 </div>
 
   </section>
-   <div class="icon-arrow-down scroll-down-anim">
-                    <a href="#about"><img src="images/icon-arrow-down.svg" alt="down-arrow"></a>
-                </div>
+  <div class='mouse-wrapper'>
+    <div class="mouse-icon"></div>
+    <div class="mouse-arrow"></div>
+  </div>
 
   <!--welcome message end-->
 
@@ -938,6 +992,7 @@ $(document).ready(function(){
 });
 </script>
 
+
     <script type="text/javascript">
        $(function () {
       $("#datepicker").datepicker({
@@ -948,11 +1003,15 @@ $(document).ready(function(){
 
     </script>
 
-    <script type="text/javascript">
+
+
+
+
+    <!-- <script type="text/javascript">
     $(window).load(function(){
         $('#modal-publicidad').modal('show');
     });
-    </script>
+    </script> -->
 
 
 

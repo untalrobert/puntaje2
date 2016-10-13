@@ -11,7 +11,7 @@ CSS structure
 06. Pagination
 07. Button
 08. Form
-	
+
 ============================================================== */
 
 /*
@@ -44,7 +44,7 @@ a:hover{
 
 h1, h2, h3, h4, h5, h6{
 	color:#48494b;
-    
+
 	margin:0 0 15px 0;
     letter-spacing: 0.9px;
 }
@@ -218,7 +218,7 @@ section,
 .pattern{
     background-image: url(../images/fondo.jpg);
     background-attachment: fixed;
-     
+
 }
 .pattern2{
     background-image: url(../images/city.jpg);
@@ -327,6 +327,13 @@ Button
 
 .btn.btn-success:hover{
     background: #70baa7;
+}
+.modal-body .ingreso {
+    width: 100%;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    padding: 6px;
+    margin-bottom: 11px;
 }
 
 .btn.btn-danger{
