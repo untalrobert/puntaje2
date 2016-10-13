@@ -2833,18 +2833,21 @@ a.openpanel:active{
     height: 40px;
 
 }
-.formularioLateral .panel-heading{
-  background:rgb(38, 167, 216);
+.formularioLateral .panel-heading {
+    background: rgb(38, 167, 216);
 }
-.olvido{
-        text-align: -webkit-auto;
-        font-size: 16px;
+
+.olvido {
+    text-align: -webkit-auto;
+    font-size: 16px;
 }
-.olvido a{
-        color: #fff;
+
+.olvido a {
+    color: #fff;
 }
-.registroVentana a{
-  color: #fff;
+
+.registroVentana a {
+    color: #fff;
 }
 .dropcaps_icon {
     float: left;
@@ -2866,41 +2869,42 @@ a.openpanel:active{
     -moz-transition: all .50s ease-in-out;
     -webkit-transition: all .50s ease-in-out;
 }
-.dropcaps_icon p{
-  margin-bottom: 0px;
-  padding-bottom: 0px;
+.dropcaps_icon p {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
-.featured_dropcap .fa{
-  margin-top: 6px;
+
+.featured_dropcap .fa {
+    margin-top: 6px;
 }
+
 .intro {
-  background: rgba(255, 255, 255, 0.13);
-  border-radius: 16px 16px 16px 16px;
--moz-border-radius: 16px 16px 16px 16px;
--webkit-border-radius: 16px 16px 16px 16px;
+    background: rgba(255, 255, 255, 0.13);
+    border-radius: 16px 16px 16px 16px;
+    -moz-border-radius: 16px 16px 16px 16px;
+    -webkit-border-radius: 16px 16px 16px 16px;
 }
-
-
 
 
 @media (max-width: 640px) {
-	.demo-column{
-		width:100%;
+.demo-column {
+	    width: 100%;
 	}
-    .social{
-        display: none;
-    }
 
-    h1.section-heading{
-        font-size: 34px;
-    }
-    .video-wrapper{
-    max-width:400px;
-    margin:0 auto;
-    padding:14px 28px;
-    position:relative;
-    }
+	.social {
+	    display: none;
+	}
 
+h1.section-heading {
+	    font-size: 34px;
+	}
+
+	.video-wrapper {
+	    max-width: 400px;
+	    margin: 0 auto;
+	    padding: 14px 28px;
+	    position: relative;
+	}
 }
 
 
