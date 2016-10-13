@@ -68,7 +68,7 @@ strong { font-weight: 600; }
   background: url(../images/city.jpg) center center no-repeat scroll;
 
   background-attachment: fixed !important;
-  background-color: #0c105f;
+  /*background-color: #0c105f;*/
   background-size: cover;
   padding: 0 0 4.5em;
   position: relative;
