@@ -2879,12 +2879,46 @@ a.openpanel:active{
 }
 
 .intro {
-    background: rgba(255, 255, 255, 0.13);
+    
     border-radius: 16px 16px 16px 16px;
     -moz-border-radius: 16px 16px 16px 16px;
     -webkit-border-radius: 16px 16px 16px 16px;
 }
 
+
+
+
+
+#hexagono {
+   width: 100px;
+   height: 55px;
+   background: #c0392b;
+   position: relative;
+}
+
+#hexagono:before {
+   width: 0;
+   height: 0;
+   content: "";
+   position: absolute;
+   top: -25px;
+   left: 0;
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   border-bottom: 25px solid #c0392b;
+}
+
+#hexagono:after {
+   width: 0;
+   height: 0;
+   content: "";
+   position: absolute;
+   bottom: -25px;
+   left: 0;
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   border-top: 25px solid #c0392b;
+}
 
 @media (max-width: 640px) {
 .demo-column {
